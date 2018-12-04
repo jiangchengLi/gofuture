@@ -1,4 +1,4 @@
-package com.future.certification;
+package com.future.certification.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @RequestMapping("login")
-public class Login {
+public class LoginController {
 
     @ResponseBody
     @RequestMapping("getUserName")
