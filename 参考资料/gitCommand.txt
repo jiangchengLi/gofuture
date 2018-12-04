@@ -1,4 +1,5 @@
-﻿
+﻿git 学习教程
+
 一、配置
 因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。
 $ git config --global user.name "Your Name"
@@ -17,4 +18,5 @@ git config命令的--global参数，用了这个参数，表示你这台机器�
 	4、git add 文件：将文件加入到git管理中
 	5、git commit -m "描述"：提交修改到版本库中
 	6、git log：查看日志   ；--pretty=oneline  加上参数  可简化日志
-	7、
+	7、git reset --hard HEAD ：回退版本，用HEAD表示当前版本上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100
+	
